@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  margin: 0;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: black;
+  color: #fff;
+}
+
+h1 {
+  text-align: left;
+}
+
+
+nav {
+  display: flex;
+  background-color: #9e775b;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+aside {
+  width: 100%;
+  border: 5px solid;
+  padding: 15px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+.webApps {
+  flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 40%;
+}
+
+.app1 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 80%;
+}
+
+.app header {
+  padding: 20px;
+}
+
+.app p {
+  text-align: center;
+}
+
+.app img {
+  width: 100%;
+}
+
+.app1 header {
+  padding: 20px;
+}
+
+.app1 p {
+  text-align: center;
+}
+
+.app1 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav}
