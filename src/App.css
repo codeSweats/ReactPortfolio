@@ -22,3 +22,14 @@
     text-align: center;
     color: whitesmoke;
 }
+
+.container{
+    position: relative;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 3vw;
+}
