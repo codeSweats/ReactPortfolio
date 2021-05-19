@@ -11,7 +11,7 @@ function About() {
 						</div>
 					</div>
 					<div className="col-lg-6 col-xm-12">
-						<h2 className="aboutTitle">About</h2>
+						<h2 className="aboutTitle" name="About">About</h2>
 						<p>
 							Save the jeweler's loupe for diamonds more refined! The training
 							wheels have not yet been removed and I wasn't first round, but

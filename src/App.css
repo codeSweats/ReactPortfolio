@@ -1,5 +1,9 @@
 .logo {
-	width: 10rem;
+	width: 5rem;
+}
+
+.container-fluid {
+    background-color: black;
 }
 
 .header-wrapper {
@@ -10,26 +14,31 @@
 	height: 100vh;
 }
 
-.info{
-    display: flex;
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    right: 0;
-    bottom: 200px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: whitesmoke;
+.info {
+	display: flex;
+	position: absolute;
+	top: 10vh;
+	left: 0;
+	right: 0;
+	bottom: 200px;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: rgb(253, 0, 0);
+    /* -webkit-text-stroke: 1px black; */
 }
 
-.container{
-    position: relative;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
+.container {
+	position: relative;
+	margin: 2rem;
+	display: flex;
+	justify-content: center;
 }
 
-.card{
-    margin-left: 3vw;
+.card {
+	margin-left: 3vw;
+}
+
+.nav-a {
+	margin-left: 3vw;
 }

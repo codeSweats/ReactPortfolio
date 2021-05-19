@@ -6,14 +6,14 @@ import Header from "./pages/Header";
 import Portfolio from "./pages/Portfolio";
 
 function App() {
-  return (
-    <>
-    <Nav />
-      <Header />
-      <About />
-      <Portfolio />
-    </>
-  );
+	return (
+		<>
+			<Nav />
+			<Header />
+			<About />
+			<Portfolio />
+		</>
+	);
 }
 
 export default App;
